@@ -1,16 +1,31 @@
-# React + Vite
+<div align="center">
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# 🧑‍💻 CS_STUDENT.exe: Daily Routine Dashboard
 
-Currently, two official plugins are available:
+**An animated, glassmorphism-style daily routine tracker built for CSE students who want to balance DSA, university, projects, fitness and career prep.**
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+![React](https://img.shields.io/badge/React_19-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
+![Framer Motion](https://img.shields.io/badge/Framer_Motion-0055FF?style=for-the-badge&logo=framer&logoColor=white)
+![Tailwind](https://img.shields.io/badge/Tailwind-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
 
-## React Compiler
+</div>
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## ✨ Features
+- 🕒 **Live clock** that follows your current time through the day
+- 🧠 **Focus / Deep Work mode** toggle with a glowing UI state
+- ✅ **Mark blocks complete** to track your daily progress
+- 🗂️ An 8-block routine: Morning Ritual → Deep Work (DSA) → University Core → Lunch → Project Dev → Physical Activity → Job Prep → Wind Down
+- 🎞️ Smooth **Framer Motion** animations and icons from **lucide-react**
 
-## Expanding the ESLint configuration
+## 🚀 Run it
+```bash
+git clone https://github.com/Muktaditbf/cse_studet_routine.exe.git
+cd cse_studet_routine.exe
+npm install
+npm run dev
+```
+To customise your routine, edit `ROUTINE_DATA` in `src/App.jsx`.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 👤 Author
+**Muktadi** · CSE @ Southeast University · [GitHub](https://github.com/Muktaditbf) · [LinkedIn](https://www.linkedin.com/in/muktadi-mohammad)
